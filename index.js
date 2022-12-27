@@ -1,8 +1,8 @@
-const express = require("express");
-const CORS = require("cors");
-require("dotenv").config();
+const express = require('express');
 const app = express();
 const port = process.env.PORT || 5000;
+const CORS = require("cors");
+require("dotenv").config();
 app.use(CORS());
 app.use(express.json());
 
